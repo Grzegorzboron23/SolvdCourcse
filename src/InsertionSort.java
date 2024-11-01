@@ -1,6 +1,6 @@
 public class InsertionSort {
 
-    public static void insertionSort(int[] array) {
+    public static int[] insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             int key = array[i];
             int j = i - 1;
@@ -11,6 +11,7 @@ public class InsertionSort {
             }
             array[j + 1] = key;
         }
+        return array;
     }
 
     public static void main(String[] args) {
@@ -20,11 +21,11 @@ public class InsertionSort {
         System.out.println("Original Array:");
         printArray(array);
 
-        // Calling the insertionSort method
-        insertionSort(array);
+        // Calling the insertionSort method and storing the result
+        int[] sortedArray = insertionSort(array);
 
         System.out.println("Sorted Array:");
-        printArray(array);
+        printArray(sortedArray);
     }
 
     public static void printArray(int[] array) {
