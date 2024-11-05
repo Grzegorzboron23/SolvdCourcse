@@ -1,6 +1,6 @@
 # SolvdCourse
 
-This repository contains Java classes created as part of the SolvdCourse project. It includes basic Java programs for educational purposes, focusing on algorithm implementation and fundamental Java concepts.
+This repository contains Java classes created as part of the SolvdCourse project. It includes basic Java programs for educational purposes, focusing on algorithm implementation, fundamental Java concepts, and practical project implementations.
 
 ## Classes
 
@@ -15,6 +15,11 @@ The `BubbleSort` class implements the Bubble Sort algorithm, which is a straight
 ### 3. `HelloWorld.java`
 
 The `HelloWorld` class is a basic Java program that prints a greeting message to the console. This program serves as an introductory example of Java syntax and the structure of a simple program.
+
+### 4. `OnlineMarket` Project
+
+The `OnlineMarket` project is an educational example that simulates an online marketplace. It demonstrates the use of object-oriented programming (OOP) concepts, including inheritance, encapsulation, and the Builder pattern. The project includes various classes that represent different aspects of an online market:
+
 
 ## How to Use
 
