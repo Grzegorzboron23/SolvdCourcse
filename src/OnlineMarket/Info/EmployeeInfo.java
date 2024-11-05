@@ -15,6 +15,9 @@ public class EmployeeInfo {
         this.position = position;
     }
 
+    public EmployeeInfo() {
+    }
+
     public LocalDate getHireDate() {
         return hireDate;
     }

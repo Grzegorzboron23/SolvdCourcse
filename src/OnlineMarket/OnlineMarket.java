@@ -45,8 +45,6 @@ public class OnlineMarket {
                 .build();
 
         System.out.println("Total value " + ProductService.countTotalValue(List.of(book1, book2)));
-
-
         System.out.println("Book " + book1);
         System.out.println("CEO " + ceo);
     }

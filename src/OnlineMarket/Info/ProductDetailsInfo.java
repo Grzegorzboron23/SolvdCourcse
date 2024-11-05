@@ -9,6 +9,9 @@ public class ProductDetailsInfo {
         this.isAvailable = isAvailable;
     }
 
+    public ProductDetailsInfo() {
+    }
+
     public String getDescription() {
         return description;
     }

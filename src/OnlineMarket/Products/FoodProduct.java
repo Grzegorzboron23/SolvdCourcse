@@ -1,7 +1,6 @@
 package OnlineMarket.Products;
 
 
-
 import OnlineMarket.Attributes.Size;
 import OnlineMarket.Enums.Category;
 import OnlineMarket.Info.PricingInfo;

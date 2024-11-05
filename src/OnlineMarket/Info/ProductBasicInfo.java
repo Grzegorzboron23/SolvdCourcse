@@ -11,6 +11,9 @@ public class ProductBasicInfo {
         this.category = category;
     }
 
+    public ProductBasicInfo() {
+    }
+
     public String getName() {
         return name;
     }
